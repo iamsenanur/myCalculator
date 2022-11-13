@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png">
+    <!--css-->
+    <link rel="stylesheet" href="main.css">
+    <title>senolet_calculator</title>
+</head>
+<body>
+    <div class="calculator">
+<h1>-SENA'S CALCULATOR-</h1>
+<div class="container">
+    <input type="text" name="screen" class="screen" id="id1">
+    <table>
+        <tr>
+    <td><button value="*" class="operators" onclick="screen('*')" > * </button></td>
+    <td><button value="/" class="operators" onclick="screen('/')" > / </button></td>
+    <td><button value="-" class="operators" onclick="screen('-')"> - </button></td>
+    <td><button value="+" class="operators" onclick="screen('+')"> + </button></td>
+</tr>
+<tr>
+    <td><button value="." class="process" onclick="screen('.')"> . </button></td>
+    <td><button value="9" onclick="screen('9')"> 9 </button></td>
+    <td><button value="8" onclick="screen('8')"> 8 </button></td>
+    <td><button value="7" onclick="screen('7')"> 7 </button></td>
+</tr>
+<tr>
+    <td><button value="6" onclick="screen('6')"> 6 </button></td>
+    <td><button value="5" onclick="screen('5')"> 5 </button></td>
+    <td><button value="4" onclick="screen('4')"> 4 </button></td>
+    <td><button value="3" onclick="screen('3')"> 3 </button></td>
+</tr> 
+<tr>
+    <td><button value="2" onclick="screen('2')"> 2 </button></td>
+    <td><button value="1" onclick="screen('1')"> 1 </button></td>
+    <td><button value="0" onclick="screen('0')"> 0 </button></td>
+    <td><button onclick="solve()" value="=" class="equals" style="background-color: green; ">=</button></td>
+</tr>
+    <td><button onclick="clr()" value="C" class="operators" style="background-color: red; ">C</button></td>
+</table>
+</div>
+</div>
+<!--javascript-->
+    <script src="main.js"></script>
+</body>
+</html>
